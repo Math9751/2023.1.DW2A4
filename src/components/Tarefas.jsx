@@ -3,7 +3,7 @@ import Tarefa from "./Tarefa";
 
 const Tarefas = ({tarefas, handleTarefaClick, handleApagarTarefa}) => {
     return (
-        <>
+        <div>
         {tarefas.map((tarefa) => (
         <Tarefa
         key={tarefa.id}
@@ -11,7 +11,7 @@ const Tarefas = ({tarefas, handleTarefaClick, handleApagarTarefa}) => {
         handleTarefaClick = {handleTarefaClick}
         handleApagarTarefa = {handleApagarTarefa}/>
         ))}
-        </>
+        </div>
     )
 }
 

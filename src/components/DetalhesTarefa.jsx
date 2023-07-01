@@ -13,7 +13,7 @@ const DetalhesTarefa = () => {
     }
 
     return (
-        <>
+        <div>
         <div className="botao-voltar-container">
             <Botao onClick={handleBotaoVoltarClick}>Voltar</Botao>
         </div>
@@ -23,7 +23,7 @@ const DetalhesTarefa = () => {
                 Voluptates optio dignissimos voluptas, voluptatum,pariatur aliquam numquam,
                 aut odit rerum iste quidem eveniet nam quis modi non odio rem voluptate aperiam?</p>
         </div>
-        </>
+        </div>
     );
 }
  
